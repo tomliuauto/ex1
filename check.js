@@ -36,8 +36,7 @@ function CheckService() {
        console.log(result)
        var phoneNum = /^(\([0-9]{3}\)\s*|[0-9]{3}\-)[0-9]{3}-[0-9]{4}$/;
         var result = phoneNum.test(phoneNumber);
-         console.log(phoneNumber);
-         console.log(result);
+  
         return result;
   };
 

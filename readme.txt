@@ -3,3 +3,13 @@ the app was created in javascript. framework AngularJS was used to realize the  
 boostrap was also used to improve the visual effect.
 the check function is located under CheckService in app.js.
 to run the application, unzip the file and open the index in a browser.
+
+
+// define the check function
+service.check = function (phoneNumber) {
+     console.log(result)
+     var phoneNum = /^(\([0-9]{3}\)\s*|[0-9]{3}\-)[0-9]{3}-[0-9]{4}$/;
+      var result = phoneNum.test(phoneNumber);
+
+      return result;
+};
